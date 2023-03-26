@@ -1,0 +1,32 @@
+/* Estilos de Clase */
+.contenedor--boton {
+    width: fit-content;
+    position: relative;
+    cursor: pointer;
+}
+.contenedor__boton {
+    color: rgb(0, 174, 199);
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 0 0 27px;
+    cursor: pointer;
+    user-select: none;
+}
+.contenedor__boton:hover {
+    text-decoration: underline;
+}
+.contenedor__boton--azul {
+    color: rgb(255, 255, 255);
+}
+.contenedor__logo {
+    color: rgb(0, 174, 199);
+    font-weight: 500;
+    position: absolute;
+    left: -5px;
+    transition: .15s;
+}
+.contenedor__logo--azul {
+    color: rgb(255, 255, 255);
+}

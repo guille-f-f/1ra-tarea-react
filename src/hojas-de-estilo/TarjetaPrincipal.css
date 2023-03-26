@@ -1,0 +1,49 @@
+/* Estilos de Clase */
+.contenedor--tarjeta {
+    padding: 0 15px;
+    margin: 0 0 30px;
+    flex-basis: 33.3333;
+}
+.tarjeta {
+    color: #0033A0;
+    padding: 18px 27px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 2px 20px 0;
+}
+.tarjeta--azul{
+    color: rgb(255, 255, 255);
+    background-color: #0033A0;
+}
+.tarjeta__imagen {
+    width: 64.79px;
+    height: 64.79px;
+    margin: 0 0 18px;
+}
+.tarjeta__titulo {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 18px;
+    margin: 0 0 9px;
+    position: relative;
+}
+.tarjeta__titulo::before {
+    content: "";
+    width: 18.6105px;
+    height: 3.98996px;
+    background-color: rgb(227, 232, 41);
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.tarjeta__texto {
+    color: rgb(129, 137, 169);   
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    margin: 0 0 54px;
+}
+.tarjeta--azul__texto {
+    color: rgb(255, 255, 255);
+}
+

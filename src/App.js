@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import TarjetaPrincipal from "./componentes/tarjetas/TarjetaPrinpical";
+import TarjetaSecundaria from "./componentes/tarjetas/TarjetaSecundaria";
+import ContenidoDeTarjetasPrincipales from "./datos/TarjetasPrincipales.json";
+import ContenidoDeTarjetasSecundarias from "./datos/TarjetasSecundarias.json";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2 className="titulo">Hablanos</h2>
+      <section className="seccion--tarjetas">
+        <div className="contenedor__tarjetasPrincipales">
+          {ContenidoDeTarjetasPrincipales.map((producto) => (
+            <TarjetaPrincipal props={producto} />
+          ))}
+        </div>
+
+        <div className="contenedor__tarjetasSecundarias">
+          {ContenidoDeTarjetasSecundarias.map((producto) => (
+            <TarjetaSecundaria props={producto} />
+          ))}
+        </div>
+        
+      </section>
     </div>
-  );
-}
+  )
+};
 
 export default App;

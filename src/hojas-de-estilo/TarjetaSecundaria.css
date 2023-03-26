@@ -1,0 +1,36 @@
+/* Estilos de Clase */
+.contenedor--tarjeta {
+    flex-basis: 50%;
+}
+.tarjetaSecundaria {
+    height: 275px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 2px 20px 0;
+    overflow: hidden;
+}
+.tarjetaSecundaria__contenedor--imagen {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjetaSecundaria__imagen {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.tarjetaSecundaria__imagen--answer {
+    width: 150px;
+    height: 75px;
+    object-position: center;
+}
+.tarjetaSecundaria__contenedor--texto {
+    margin: 18px 27px;
+}
+.tarjetaSecundaria__texto {
+    color: rgb(129, 137, 169);   
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}

@@ -1,0 +1,36 @@
+[
+    {
+      "id": 0,
+      "imagen": "logo-1",
+      "titulo": "PREGUNTAS FRECUENTES",
+      "texto": "Te ayudamos a resolvemos todas tus dudas",
+      "textoDeBoton": "Ingresá aquí",
+      "clase":"tarjeta--azul",
+      "claseTexto":"tarjeta--azul__texto",
+      "claseLogo": "contenedor__logo--azul",
+      "claseBoton":"contenedor__boton--azul",
+      "parametroBoton": 0
+    },{
+      "id": 1,
+      "imagen": "logo-2",
+      "titulo": "FORMULARIOS DE RECLAMOS",
+      "texto": "Contanos tu experiencia que nos ayude a mejorar.",
+      "textoDeBoton": "Contactános",
+      "clase":"",
+      "claseTexto":"",
+      "claseLogo": "",
+      "claseBoton":"",
+      "parametroBoton": 1      
+    },{
+      "id": 2,
+      "imagen": "logo-3",
+      "titulo": "DAR DE BAJA UN PRODUCTO",
+      "texto": "Te orientamos para que tomes una mejor decisión.",
+      "textoDeBoton": "Formulario de cancelación",
+      "clase":"",
+      "claseTexto":"",
+      "claseLogo": "",
+      "claseBoton":"",
+      "parametroBoton": 2
+    }
+]

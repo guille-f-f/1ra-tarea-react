@@ -1,0 +1,16 @@
+[
+    {
+      "id": 3,
+      "imagen": "img-1",
+      "texto": "Conocé, cotizá y compará en nuestro canal de venta directa.",
+      "textoDeBoton": "Ingresá aquí",
+      "claseImagen": "tarjetaSecundaria__imagen--answer",
+      "parametroBoton": 3
+    },{
+      "id": 4,
+      "imagen": "img-2",
+      "texto": "Te acercamos soluciones y herramientas para proteger y potenciar tu campo",
+      "textoDeBoton": "Ingresá aquí",
+      "parametroBoton": 4
+    }
+  ]
